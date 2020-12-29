@@ -1,0 +1,25 @@
+{
+  "base_url": "https://wutali-nextjs-netlify-blog.netlify.app",
+  "site_title": "ConsistentDev's Personal Site",
+  "site_description": "Welcome to my world. I will simply post my thoughts, ramblings and keep whoever may be reading up-to-date with the building and progress of deploi.ai and my personal journey.",
+  "site_keywords": [
+    {
+      "keyword": "ConsistentDev"
+    },
+    {
+      "keyword": "Deploi"
+    },
+    {
+      "keyword": "Tech"
+    },
+    {
+      "keyword": "Startups"
+    },
+    {
+      "keyword": "Programming"
+    }
+  ],
+  "posts_per_page": 5,
+  "twitter_account": "consistentdev",
+  "github_account": "4thabang"
+}
