@@ -4,10 +4,7 @@ type Pagination = {
   excerpt: boolean;
 };
 
-export function generatePagination(
-  current: number,
-  pages: number
-): Pagination[] {
+export const generatePagination = (current: number, pages: number): Pagination[] => {
   return Array.from(Array(pages).keys())
     .map((it) => it + 1)
     .filter((it) => it === 1 || it === pages || Math.abs(current - it) <= 2)
